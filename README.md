@@ -11,11 +11,11 @@ This is a basic tutorial on adversarial attacks. Through this tutorial, you can 
 
 #### 2.1 Download the pre-trained model and datasets（下载预训练模型和训练数据）
 
-You can get the pre-trained model from the following link, unzip it and place it in `adversarial_attack_tutorial/checkpoints`：
+You can get the pre-trained model from the following link, unzip it and place it in `adversarial_attack_tutorial/checkpoints/`：
 
-你可以从以下链接获取预训练模型，将其解压后安放在`adversarial_attack_tutorial/checkpoints`目录下:
+你可以从以下链接获取预训练模型，将其解压后安放在`adversarial_attack_tutorial/checkpoints/`目录下:
 
-[Google Drive]().
+[Google Drive](https://drive.google.com/file/d/1nyzCfxoG8I-zJe-2odJohdDwWCYgzVFQ/view?usp=sharing).
 
 [Quark Drive](https://pan.quark.cn/s/450579236ae7) 提取码：MCEy
 
