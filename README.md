@@ -19,7 +19,7 @@ You can get the pre-trained model from the following link, unzip it and place it
 
 [Quark Drive](https://pan.quark.cn/s/450579236ae7) 提取码：MCEy
 
-You need to download the (cifar-10)[http://www.cs.toronto.edu/~kriz/cifar.html] and (celebA)[https://mmlab.ie.cuhk.edu.hk/projects/CelebA.html] datasets
+You need to download the [cifar-10](http://www.cs.toronto.edu/~kriz/cifar.html) and [celebA](https://mmlab.ie.cuhk.edu.hk/projects/CelebA.html) datasets
 
 
 #### 2.2 Running demo（运行demo）
