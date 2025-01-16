@@ -9,6 +9,16 @@ This is a basic tutorial on adversarial attacks. Through this tutorial, you can 
 
 ### 2. Start（使用）
 
+#### 2.0 Preparing（准备）
+
+Creating a conda environment：
+```
+conda create -n adversarial_attack_tutorial python=3.6
+conda activate adversarial_attack_tutorial
+```
+
+Install the required dependency packages given in requirements.txt.
+
 #### 2.1 Download the pre-trained model and datasets（下载预训练模型和训练数据）
 
 You can get the pre-trained model from the following link, unzip it and place it in `adversarial_attack_tutorial/checkpoints/`：
