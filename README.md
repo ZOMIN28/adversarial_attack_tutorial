@@ -36,7 +36,7 @@ You need to download the [cifar-10](http://www.cs.toronto.edu/~kriz/cifar.html) 
 
 Run gradient-based adversarial attacks on classifier models in grad_attack2resnet.ipynb; run gradient-based adversarial attacks on generative models in grad_attack2AE.ipynb; run generative-based adversarial attacks on generative models in gen_attck2AE.ipynb; learn about the robustness and transferability of adversarial attacks in robustness_transferability.ipynb.
 
-在grad_attack2resnet.ipynb中运行基于梯度的针对分类器模型的对抗攻击；在grad_attack2AE.ipynb中运行基于梯度的对生成模型的对抗攻击；在gen_attck2AE.ipynb中运行基于生成式的对生成模型的对抗攻击；在robustness_transferability.ipynb中了解对抗攻击的鲁棒性和可转移性。
+在grad_attack2resnet.ipynb中运行基于梯度的针对分类器模型的对抗攻击；在grad_attack2AE.ipynb中运行基于梯度的对生成模型的对抗攻击；在gen_attack2AE.ipynb中运行基于生成式的对生成模型的对抗攻击；在robustness_transferability.ipynb中了解对抗攻击的鲁棒性和可转移性。
 
 #### 2.3 Use it more flexibly（灵活使用）
 
