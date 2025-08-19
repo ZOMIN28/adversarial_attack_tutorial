@@ -21,7 +21,7 @@ Install the required dependency packages given in requirements.txt.
 
 #### 2.1 Download the pre-trained model and datasets（下载预训练模型和训练数据）
 
-You can get the pre-trained model from the following link, unzip it and place it in `adversarial_attack_tutorial/checkpoints/`：
+You can get the pre-trained model from the following link, unzip it and place it at `adversarial_attack_tutorial/checkpoints/`：
 
 你可以从以下链接获取预训练模型，将其解压后安放在`adversarial_attack_tutorial/checkpoints/`目录下:
 
@@ -29,7 +29,7 @@ You can get the pre-trained model from the following link, unzip it and place it
 
 [Quark Drive](https://pan.quark.cn/s/450579236ae7) 提取码：MCEy
 
-You need to download the [cifar-10](http://www.cs.toronto.edu/~kriz/cifar.html) and [celebA](https://mmlab.ie.cuhk.edu.hk/projects/CelebA.html) datasets. In addition, we provide a celebA-256-mini dataset, which contains 30,000 face images sampled from the celebA dataset and their attribute information, which you can get from [celebA-256-mini](https://drive.google.com/file/d/1v4KazZb9DFr_DpOFCwL-qGZc0AdYhBXq/view?usp=sharing). This tutorial uses the celebA-256-mini dataset. For ease of operation, it is recommended to use this dataset.
+You need to download the [cifar-10](http://www.cs.toronto.edu/~kriz/cifar.html) and [celebA](https://mmlab.ie.cuhk.edu.hk/projects/CelebA.html) datasets. In addition, we provide a celebA-256-mini dataset, which contains 30,000 face images sampled from the celebA dataset and their attribute information, which you can get at [celebA-256-mini](https://drive.google.com/file/d/1v4KazZb9DFr_DpOFCwL-qGZc0AdYhBXq/view?usp=sharing). This tutorial uses the celebA-256-mini dataset. For ease of operation, it is recommended to use this dataset.
 
 您需要下载 [cifar-10](http://www.cs.toronto.edu/~kriz/cifar.html) 和 [celebA](https://mmlab.ie.cuhk.edu.hk/projects/CelebA.html) 数据集。此外，我们提供了celebA-256-mini数据集，其包含30000张从celebA数据集中采样的人脸图像及其属性信息，可以从[celebA-256-mini](https://drive.google.com/file/d/1v4KazZb9DFr_DpOFCwL-qGZc0AdYhBXq/view?usp=sharing)中获取。本教程所使用的为celebA-256-mini数据集，为了方便运行，建议使用该数据集。
 
