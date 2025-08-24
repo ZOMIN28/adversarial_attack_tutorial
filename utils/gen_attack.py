@@ -63,6 +63,7 @@ class Gen_Attack:
                     pbar.update()
 
             if epoch % 1 == 0:
-                torch.save(self.netG.state_dict(), "checkpoints/adv_gen.pth")
+                torch.save(self.advG.state_dict(), "checkpoints/adv_gen.pth")
+
 
                 
