@@ -1,15 +1,15 @@
 # adversarial_attack_tutorial
-A simple tutorial on adversarial attacks against deep neural networks（针对深度神经网络的对抗攻击的简单教程）
+A simple tutorial on adversarial attacks against deep neural networks.
 
-### 1. Introduction（介绍）
+[中文版本文档](./README_CN.md)
+
+### 1. Introduction
 
 This is a basic tutorial on adversarial attacks. Through this tutorial, you can learn: 1) the implementation of gradient-based and generation-based adversarial attacks; 2) adversarial attacks on classification models and generative models; 3) the robustness and transferability of adversarial attacks.
 
-这是一个关于对抗攻击的基础教程。通过该教程你可以了解：1）基于梯度和基于生成的对抗攻击的实现；2）针对分类模型和生成模型的对抗攻击；3）对抗攻击的鲁棒性和可迁移性。
+### 2. Start
 
-### 2. Start（使用）
-
-#### 2.0 Preparing（准备）
+#### 2.0 Preparing
 
 Creating a conda environment：
 ```
@@ -19,30 +19,24 @@ conda activate adversarial_attack_tutorial
 
 Install the required dependency packages given in requirements.txt.
 
-#### 2.1 Download the pre-trained model and datasets（下载预训练模型和训练数据）
+#### 2.1 Download the pre-trained model and datasets
 
 You can get the pre-trained model from the following link, unzip it and place it at `adversarial_attack_tutorial/checkpoints/`：
 
-你可以从以下链接获取预训练模型，将其解压后安放在`adversarial_attack_tutorial/checkpoints/`目录下:
-
 [Google Drive](https://drive.google.com/file/d/1nyzCfxoG8I-zJe-2odJohdDwWCYgzVFQ/view?usp=sharing).
 
-[Quark Drive](https://pan.quark.cn/s/450579236ae7) 提取码：MCEy
+[Quark Drive](https://pan.quark.cn/s/450579236ae7) the key：MCEy
 
 You need to download the [cifar-10](http://www.cs.toronto.edu/~kriz/cifar.html) and [celebA](https://mmlab.ie.cuhk.edu.hk/projects/CelebA.html) datasets. In addition, we provide a celebA-256-mini dataset, which contains 30,000 face images sampled from the celebA dataset and their attribute information, which you can get at [celebA-256-mini](https://drive.google.com/file/d/1v4KazZb9DFr_DpOFCwL-qGZc0AdYhBXq/view?usp=sharing). This tutorial uses the celebA-256-mini dataset. For ease of operation, it is recommended to use this dataset.
 
-您需要下载 [cifar-10](http://www.cs.toronto.edu/~kriz/cifar.html) 和 [celebA](https://mmlab.ie.cuhk.edu.hk/projects/CelebA.html) 数据集。此外，我们提供了celebA-256-mini数据集，其包含30000张从celebA数据集中采样的人脸图像及其属性信息，可以从[celebA-256-mini](https://drive.google.com/file/d/1v4KazZb9DFr_DpOFCwL-qGZc0AdYhBXq/view?usp=sharing)中获取。本教程所使用的为celebA-256-mini数据集，为了方便运行，建议使用该数据集。
 
-
-#### 2.2 Running demo（运行demo）
+#### 2.2 Running demo
 
 Run gradient-based adversarial attacks on classifier models in grad_attack2resnet.ipynb; run gradient-based adversarial attacks on generative models in grad_attack2AE.ipynb; run generative-based adversarial attacks on generative models in gen_attck2AE.ipynb; learn about the robustness and transferability of adversarial attacks in robustness_transferability.ipynb.
 
-在grad_attack2resnet.ipynb中运行基于梯度的针对分类器模型的对抗攻击；在grad_attack2AE.ipynb中运行基于梯度的对生成模型的对抗攻击；在gen_attack2AE.ipynb中运行基于生成式的对生成模型的对抗攻击；在robustness_transferability.ipynb中了解对抗攻击的鲁棒性和可转移性。
+#### 2.3 Use it more flexibly
 
-#### 2.3 Use it more flexibly（灵活使用）
-
-（1）Gradient-based adversarial attacks on classifiers（基于梯度的对分类器的对抗攻击）：
+（1）Gradient-based adversarial attacks on classifiers：
 ```python
     from utils.attack import LinfPGDAttack4Classifier
 
@@ -57,7 +51,7 @@ Run gradient-based adversarial attacks on classifier models in grad_attack2resne
 
 <img src="images\grad_res.png" alt="output" style="zoom:67%;" />
 
-（2）Gradient-based Adversarial Attacks on Generative Models（基于梯度的对生成模型的对抗攻击）：
+（2）Gradient-based Adversarial Attacks on Generative Models：
 ```python
     from utils.attack import LinfPGDAttack4Gen
     
@@ -72,7 +66,7 @@ Run gradient-based adversarial attacks on classifier models in grad_attack2resne
 
 <img src="images\grad_ae.png" alt="output" style="zoom:67%;" />
 
-（3）Generation-based Adversarial Attacks on Generative Models（基于生成的对生成模型的对抗攻击）：
+（3）Generation-based Adversarial Attacks on Generative Models：
 ```python
     from net.advGenerator import ResnetGenerator
     
